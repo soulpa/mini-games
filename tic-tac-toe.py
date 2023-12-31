@@ -26,7 +26,9 @@ def choose_box():
         open_spaces.remove(uinput)
         print(open_spaces, spaces)
         return uinput
-    else: choose_box()
+    else: 
+        return choose_box()
 
 e = choose_box()
+
 print(e)
